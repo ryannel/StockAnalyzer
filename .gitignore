@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Intellij Files
+.idea/
+
+# DataFiles
+nasdaqTradedCompanies.jsonl
+
+# Output Files
+*.html
