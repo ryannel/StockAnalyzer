@@ -105,7 +105,7 @@ def main():
     cerebro.run()
     print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())  # Print the final result
 
-    # cerebro.plot(style='bar')
+    cerebro.plot(style='bar')
 
 
 if __name__ == '__main__':

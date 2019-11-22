@@ -17,3 +17,6 @@ Install Ta-Lib by downloading the appropriate whl file for your python version:
 * [Navigate to the Fluorescence Dynamics repository](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib) and find the TA-Lib section
 * Select the .whl file that matches your python version. Cp38 refers to python 3.8. If you have python 3.7 64bit installed then `TA_Lib‑0.4.17‑cp37‑cp37‑win_amd64.whl` would be appropriate
 * Download the file and run `python -m pip install <TA_LIB-xxxxx.whl>`
+
+# Supported Indicators
+https://www.backtrader.com/docu/indautoref/
