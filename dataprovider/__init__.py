@@ -3,12 +3,13 @@ import pandas
 
 
 class CompanyStock:
-    company_name = None
-    industry = None
-    sector = None
-    exchange = None
-    symbol = None
-    history = []
+    def __init__(self):
+        self.company_name = None
+        self.industry = None
+        self.sector = None
+        self.exchange = None
+        self.symbol = None
+        self.history = []
 
     def get_dataframe(self):
         history = pandas.DataFrame(self.history)
