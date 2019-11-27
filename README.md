@@ -9,8 +9,17 @@
 # Running the project
 * Execute the project by running `python main.py`
 
+# Other Useful Dependencies
+
+# Graphviz
+Graph viz is a plotting library that will allow you to visualize several types of models
+
+* [Download Graphvix msi file](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
+* Add the graphviz bin file to your path default location is: `C:\Program Files (x86)\Graphviz2.38\bin`
+* install the python library `python -m pip install graphviz`
+
 # TA-Lib (Optional)
-If you would like to leverage TA-Lib:
+If you would like to leverage TA-Lib for the creation of technical indicators
 
 Install Ta-Lib by downloading the appropriate whl file for your python version:
 * Check your python version by running `python --version`
